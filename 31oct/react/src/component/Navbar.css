@@ -1,0 +1,7 @@
+#navbar {
+  border: 5px solid red;
+  width: 500%;
+  height: 100px;
+  display: flex;
+  background-color: blue;
+}
