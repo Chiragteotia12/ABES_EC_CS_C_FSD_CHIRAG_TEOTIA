@@ -1,0 +1,86 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Todo List styles */
+.todo-list {
+  background: #fff;
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 1.5rem 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.todo-list h2 {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.todo-list li {
+  list-style: none;
+  margin: 0.5rem 0;
+  padding: 0.6rem 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  border-radius: 8px;
+  background-color: #f8fafc;
+}
+
+.todo-list li button {
+  margin-left: 0.5rem;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid transparent;
+  background: #ef4444;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.todo-list li button:nth-of-type(2) {
+  background: #f59e0b;
+}
+
+/* Input area */
+.input-todo {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.input-todo input {
+  flex: 1;
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  outline: none;
+  font-size: 1rem;
+}
+
+.input-todo button {
+  padding: 0.6rem 0.85rem;
+  border-radius: 8px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* small helper classes (kept from template) */
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
